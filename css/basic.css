@@ -1,0 +1,49 @@
+#all {
+  height: 820px;
+  background-color: pink;
+}
+.group-divs {
+  position: relative;
+}
+.div-color {
+  width: 96%;
+  height: 31.6%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 1.5%;
+  top: 1.5%;
+}
+#red {
+  background-color: red;
+}
+#div-profile {
+  background-color: red;
+  position:relative;
+  height:90%;
+  top: 5%;
+  text-align: center;
+}
+#div-profile img {
+  position: relative;
+  height: 100%;
+  border-radius: 50%;
+}
+#profile-pic {
+  text-align: center;
+  width: 50%;
+  position: relative;
+}
+#green {
+  text-align: center;
+  background-color: green;
+}
+#green span {
+  position: relative;
+  height:90%;
+  top: 42%;
+  font-family: fantasy;
+  font-size: 54px;
+}
+#blue {
+  background-color: blue;
+}

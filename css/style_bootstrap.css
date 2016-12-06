@@ -1,0 +1,42 @@
+#col1 {
+  background-color: red;
+}
+#col2 {
+  background-color: blue;
+}
+#col3 {
+  background-color: green;
+}
+#col4 {
+  background-color: red;
+}
+.cols {
+  height: 100px;
+}
+img {
+  position: relative;
+  height: 70%;
+  top: 10%;
+}
+#tabel_col {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#div_table {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+table {
+  text-align: center;
+}
+#divButton {
+  position: relative;
+  text-align: center;
+}
+#resultSpan {
+  position: relative;
+  top: 10px;
+  display: block;
+  text-align: center;
+}

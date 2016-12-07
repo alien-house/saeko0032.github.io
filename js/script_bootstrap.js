@@ -5,6 +5,7 @@ var btnLoginClicked = function() {
   if (email === "saeko0032@gmail.com" && password === "123456") {
     resultEl.innerHTML = "The user has logged in.";
     resultEl.className = "bg-success";
+    resultEl.
   } else {
     resultEl.innerHTML = "Incorrect email/pw.";
     resultEl.className = "bg-danger";

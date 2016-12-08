@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap Core CSS -->
     <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
   </head>
 
   <body>
@@ -36,15 +39,21 @@
         <div class="row">
           <div class="col-xs-6 col-md-4">
             <div class="thumbnail">
-              <img src="img/project1.png">
+              <a href="#myProject1" data-toggle="modal">
+                <img id="imgProject1" src="img/project1.png">
+                <!-- <span><img src="img/plus.png"></span> -->
+              </a>
             </div>
             <div class="thumbnail">
-              <img src="img/project2.png">
+              <img src="img/project4.png">
             </div>
           </div>
           <div class="col-xs-6 col-md-4">
             <div class="thumbnail">
-              <img src="img/project3.png">
+              <a href="#myProject2" data-toggle="modal">
+                <img id="imgProject2" src="img/project2.png">
+                <!-- <span><img src="img/plus.png"></span> -->
+              </a>
             </div>
             <div class="thumbnail">
               <img src="img/project4.png">
@@ -52,36 +61,113 @@
           </div>
           <div class="hidden-xs col-md-4">
             <div class="thumbnail">
-              <img src="img/project3.png">
+              <img src="img/project4.png">
             </div>
             <div class="thumbnail">
-              <img src="img/project4.png">
+              <img src="img/project3.png">
             </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- modal -->
+    <div id="myProject1" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+    <!--modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">IC3 PROJECT</h3>
+          </div>
+          <div class="modal-body">
+            <img src="img/project1.png">
+            <br>
+            <br>
+            <p>As a front-end developer, working with a team to make a video conference system.<br>
+               This product is based on struts flamework, I have skills in <strong>Java/Jsp/javascript/HTML5/CSS/jQuery.</strong><br>
+               <br>
+               As a mobile app developer, designed and programed for <strong>iOS and Android application</strong>.
+               <br>
+               <br>
+               自社webビデオ会議システム製品"IC3"のサーバーサイドエンジニアとして、<br>
+               strutsフレームワークを軸にJava/Jssp/HTML5/CSS/javascript/jQueryを<br>
+               駆使して開発にあたる。
+               <br>
+               またクライアントプログラマーとして、iOS/Android版の新規開発・デザインを担当する。<br>
+               <br>
+            </p>
+            <h5>Client: <a href="">Canon It Solutions inc.</a></h5><h5>Data: April 2009 - July 2014</h5>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal -->
+    <div id="myProject2" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+    <!--modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Responsive Website</h3>
+          </div>
+          <div class="modal-body">
+            <img class="responsive" src="img/project2.png">
+            <br>
+            <br>
+            <p>As a web developer, working to make an international student agency's<br>
+               responsive webpage.
+               <br>
+               This product is based on wordpress and bootstrap flamework, I have skills in <strong>javascript/HTML5/CSS/jQuery.</strong><br>
+               <br>
+               <br>
+               wordpress・bootstrapを軸にバンクーバーのエージェントの日本語ページの<br>
+               デザイン・開発を担当する。
+               <br>
+               <br>
+            </p>
+            <h5>Client: <a href="">Enjoy Canada International Student Agency.</a></h5><h5>Data: April 2016 - Current</h5>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <div class="learn-more">
-	  <div class="container">
-		<div class="row">
-	      <div class="col-md-4">
-			<h3>Travel</h3>
-			<p>From apartments and rooms to treehouses and boats: stay in unique spaces in 192 countries.</p>
-			<p><a href="#">See how to travel on Airbnb</a></p>
-	      </div>
-		  <div class="col-md-4">
-			<h3>Host</h3>
-			<p>Renting out your unused space could pay your bills or fund your next vacation.</p>
-			<p><a href="#">Learn more about hosting</a></p>
-		  </div>
-		  <div class="col-md-4">
-			<h3>Trust and Safety</h3>
-			<p>From Verified ID to our worldwide customer support team, we've got your back.</p>
-			<p><a href="#">Learn about trust at Airbnb</a></p>
-		  </div>
-	    </div>
+    <div class="jumbotron2">
+  	  <div class="container-fluid">
+        <div class="container">
+        <h2>Experience</h2>
+      		<div class="row">
+      	    <div class="col-md-6">
+              <div class="whiteBackground">
+        			  <h3>Freelance Web developer<br>(Vancouver, Canada)</h3>
+        			  <p>Desiging and making webpages.</p>
+                <br>
+                <br>
+        		  	<p>April 2016 - Current</p>
+      	       </div>
+            </div>
+      		  <div class="col-md-6">
+              <div class="whiteBackground">
+        		  	<h3>Canon IT Solutions Inc.<br>(Tokyo, Japan)</h3>
+        		  	<span>Web app developer</span>
+                <br>
+                <span>iOS developer</span>
+                <br>
+                <span>Android app developer</span>
+                <br>
+                  <br>
+        		  	<p>April 2009 - July 2014</p>
+              </div>
+      		  </div>
+      	  </div>
+  	  </div>
+    </div>
 	  </div>
-	</div>
   </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
 </html>

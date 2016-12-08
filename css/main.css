@@ -1,4 +1,4 @@
-.container-fluid ul.pull-left{
+.container-fluid ul.pull-left {
   margin-bottom: 0px;
 }
 
@@ -18,14 +18,14 @@
 
 .jumbotron {
   background-image:url(../img/banner.jpg);
-  height: 500px;
+  height: 450px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .jumbotron .container-fluid {
   position: relative;
-  top:320px;
+  top: 270px;
 }
 
 .jumbotron h2 {
